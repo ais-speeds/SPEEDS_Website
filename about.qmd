@@ -1,0 +1,23 @@
+---
+title: "About"
+format:
+  html:
+    code-fold: false
+    smooth-scroll: true
+execute:
+  warning: false
+  echo: false
+editor: visual
+---
+
+::: {style="text-align: justify;"}
+Welcome to the website of the **SPEEDS** project!
+:::
+
+::: {style="text-align: justify;"}
+SPEEDS stands for **Sp**ort and **E**xercise Science **E**xcellence Through **D**ata **S**cience. This project is managed by the Sports Data Analytics team of La Trobe University (Australia) and is funded by the Australian Institute of Sport.
+:::
+
+::: {style="text-align: justify;"}
+To advance the future of Australian sports through optimal data utilization, the SPEEDS project seeks to address the current gap in sports data science literacy amongst sport and exercise science (SES) practitioners. Recognizing the pivotal role of data in ensuring the success of events like the 2032 Brisbane Olympics, the SPEEDS project will: 1) create an online repository of sport-specific datasets, curated and refined for educational use; 2) develop online educational materials tailored to the unique data science needs of SES practitioners. These resources aim to elevate their proficiency in data management, exploratory data analysis, data visualization, and interpreting meaningful changes within sports contexts. As a result, SES professionals will be better equipped to leverage data-driven insights for improved athletic performance and decision-making.
+:::
