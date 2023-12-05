@@ -1,0 +1,109 @@
+---
+title: "speedsR data package"
+subtitle: "A Comprehensive R Package Providing Sports-Specific Datasets for the AIS SPEEDS Project."
+format:
+  html:
+    code-fold: false
+    toc: false
+    toc_depth: 4
+    toc-title: Contents
+    smooth-scroll: true
+    number-sections: false
+    css: styles.css
+  pdf: default
+execute:
+  warning: false
+editor: visual
+editor_options: 
+  chunk_output_type: inline
+---
+
+# `speedsR` Overview
+
+SPEEDS - **Sp**ort and **E**xercise Science **E**xcellence Through **D**ata **S**cience - is a project funded by the Australian Institute of Sport that aims to elevate data science literacy among Australian sports professionals. One of the key missions of the SPEEDS initiative is to curate a repository of de-identified, sport-specific datasets. These datasets are crucial for developing data science educational resources tailored to Australian sport and exercise science professionals.
+
+The `speedsR` R data package, specifically designed for the SPEEDS project, offers an extensive collection of sports-specific datasets. It facilitates easy access to these datasets, enabling analysis and research within the sports science context. `speedsR` can be easily downloaded from the AIS SPEEDS <img src="github_logo.png" width="50px"/> repository and integrated as a library in any R-based Integrated Development Environment (IDE).
+
+# Synthetic Data
+
+The `speedsR` package exclusively contains synthetic data. Given the confidential nature of the original sports-specific data collected from sport and exercise science professionals, its direct inclusion in the `speedsR` package is not viable. Instead, we provide synthetic counterparts of each original dataset, generated using the Synthetic Data Vault (`sdv`) and `synthcity` libraries in Python, alongside the `synthpop` package in R. These synthetic datasets mirror the structure and statistical characteristics of the original data, ensuring the privacy and confidentiality of the individuals involved.
+
+# Installing `speedsR` from <img src="github_logo.png" width="70px"/>
+
+`speedsR` is available for installation directly from <img src="github_logo.png" width="50px"/>, using the `remotes` package. If you have not already, please install `remotes`:
+
+```{r}
+#| eval: false
+install.packages("remotes", repos="https://cloud.r-project.org/")
+```
+
+Once installed, load `remotes` into your R session:
+
+```{r}
+#| eval: false
+library(remotes)
+```
+
+In order to install packages from <img src="github_logo.png" width="50px"/>, ensure <img src="git_logo.png" width="50px"/> is also set up on your machine. If it is not installed, [download and install Git](https://git-scm.com/downloads). This will allow `remotes` to clone and install packages from <img src="github_logo.png" width="50px"/> directly.
+
+::: {.callout-tip title="Git Installation"}
+The easiest way to check if <img src="git_logo.png" width="50px"/> is installed on your computer is by using the terminal (on macOS or Linux) or the command prompt (on Windows).
+
+*  **macOS and Linux**:
+
+    + Open the Terminal.
+    + Type **`git --version`** and press Return.
+    + If you see a version number, it means Git is installed. If you see a message like "command not found," then <img src="git_logo.png" width="50px"/> is not installed.
+
+* **Windows**:
+
+    + Open the Command Prompt.
+    + Type **`git --version`** and press Enter.
+    + If you see a version number, it means Git is installed. If you see a message like " 'git' is not recognized as an internal or external command", then <img src="git_logo.png" width="50px"/> is not installed.
+:::
+
+Now, the `speedsR` package can be installed using the following command:
+
+```{r}
+#| eval: false
+remotes::install_github("ais-speeds/speedsR")
+```
+
+Once installed, load `speedsR` as you would any R package::
+
+```{r}
+#| eval: false
+library(speedsR)
+```
+
+# List of Available Datasets
+
+To explore the datasets included in the `speedsR` package, you can use several functions. Each offers a different level of detail about the datasets:
+
+* **To view the list of datasets**: Use `data(package = "speedsR")`. This command displays a simple list of all datasets in the `speedsR` package.
+
+* **For detailed documentation**: Use `help(package = "speedsR")`. This provides more comprehensive information, including documentation for each dataset.
+
+* **For specific information**: Use `?speedsR` to access details about the `speedsR` package itself, and `?dataset_name` (replacing 'dataset_name' with your dataset of interest) for information on a specific dataset.
+
+# Data Format in `speedsR`
+
+Datasets in `speedsR` are provided as tibbles. A tibble is a modern take on the dataframe, part of the `tidyverse` in R. It's similar to a dataframe and is particularly convenient for data analysis and manipulation in R, offering a user-friendly structure.
+
+Here's how you can manipulate data from `speedsR`:
+
+```{r}
+#| results: false
+
+library(speedsR)
+
+# Load and store a dataset with a descriptive variable name. 
+# Here, we use the HbmassSynth dataset as an example.
+descriptive_variable_name <- HbmassSynth
+
+# View the first few rows of the dataset
+head(descriptive_variable_name)
+
+# Get a basic descriptive statistics summary of the dataset
+summary(descriptive_variable_name)
+```
