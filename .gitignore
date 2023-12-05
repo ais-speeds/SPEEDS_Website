@@ -1,6 +1,5 @@
 /.quarto/
 .Rproj.user
-.DS_Store
 _site/
 .RData
 .RDataTmp
