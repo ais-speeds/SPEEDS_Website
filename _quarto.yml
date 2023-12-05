@@ -1,0 +1,27 @@
+project: 
+  type: website
+  
+website: 
+  title: "The SPEEDS Project"
+  navbar:
+    background: primary
+    search: true
+    left:
+      - about.qmd
+          
+  sidebar:
+    style: "docked"
+    search: true
+    contents:
+      - section: "Data Management"
+        contents:
+            - Data_Organization.qmd
+      - section: "Data Visualization"
+        contents:
+            - Bar_Plots.qmd
+            - Scatter_Plots.qmd
+  
+format:
+  html:
+    theme: zephyr
+    css: styles.css
