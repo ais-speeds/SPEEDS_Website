@@ -8,6 +8,7 @@ website:
     search: true
     left:
       - about.qmd
+      - speedsR_data_package.qmd
           
   sidebar:
     style: "docked"
