@@ -1,0 +1,4 @@
+- source: project
+  quarto-pub:
+    - id: d3ea0e05-7b8e-4323-b6c1-aa6a5fea47a6
+      url: 'https://speeds.quarto.pub/speeds'
