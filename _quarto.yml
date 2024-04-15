@@ -18,6 +18,7 @@ website:
         contents:
             - Data_Organization.qmd
             - Data_Wrangling_Cleaning_Tidying.qmd
+            - Handling_Missing_Data_and_Outliers.qmd
             - Synthetic_Data_Generation_With_synthpop.qmd
       - section: "Data Visualization"
         contents:
