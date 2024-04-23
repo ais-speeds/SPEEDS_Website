@@ -20,10 +20,21 @@ website:
             - Data_Wrangling_Cleaning_Tidying.qmd
             - Handling_Missing_Data_and_Outliers.qmd
             - Synthetic_Data_Generation_With_synthpop.qmd
+      - section: "Exploratory Data Analysis"
+        contents: 
+            - Data_Exploration_Techniques.qmd
       - section: "Data Visualization"
         contents:
             - Bar_Plots.qmd
             - Scatter_Plots.qmd
+      - section: "Data Analysis"
+        contents:
+            - DimRed_intro.qmd
+            - regression_1_LM.qmd
+            - regression_2_Poisson.qmd
+            - regression_3_Logistic.qmd
+            - regression_4_LMM.qmd
+
   
 format:
   html:
