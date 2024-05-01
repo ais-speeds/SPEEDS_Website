@@ -1,13 +1,30 @@
 project: 
   type: website
-  
+  render: 
+    - about.qmd
+    - speeds_team.qmd
+    - speedsR_data_package.qmd
+    - Handling_Missing_Data_and_Outliers.qmd
+
 website: 
   title: "The SPEEDS Project"
+  cookie-consent:
+    type: express
+    style: headline
+    palette: dark
+    
+  google-analytics: 
+    tracking-id: "G-5CH3ZRNFRZ"
+    anonymize-ip: true
+    version: 4
+    storage: cookies
+    
   navbar:
     background: primary
     search: true
     left:
       - about.qmd
+      - speeds_team.qmd
       - speedsR_data_package.qmd
           
   sidebar:
@@ -38,5 +55,7 @@ website:
   
 format:
   html:
-    theme: zephyr
+    theme:
+      light: flatly
+      dark: darkly
     css: styles.css
