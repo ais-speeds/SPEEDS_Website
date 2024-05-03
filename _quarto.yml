@@ -1,10 +1,5 @@
 project: 
   type: website
-  render: 
-    - about.qmd
-    - speeds_team.qmd
-    - speedsR_data_package.qmd
-    - Handling_Missing_Data_and_Outliers.qmd
 
 website: 
   title: "The SPEEDS Project"
