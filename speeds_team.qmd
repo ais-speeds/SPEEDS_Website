@@ -1,5 +1,5 @@
 ---
-title: "The SPEEDS Team"
+title: ""
 format:
   html:
     css: styles.css
@@ -10,96 +10,108 @@ editor_options:
   chunk_output_type: inline
 ---
 
+<div class="speeds-team-page">
 
-::: {.grid-layout}
+# The SPEEDS Team
+
+<!-- ::: {.grid-layout} -->
+
 ::: {.grid-item}
 ![](govus.png)
 
-**Dr Andrew Govus - Project Supervisor**
+<div class="name-title">**Dr Andrew Govus - Project Supervisor**</div>
 
-<!-- [![](x_icon.svg){.twitter-icon} @AndyGovus](https://twitter.com/AndyGovus) -->
-<!-- [![](LTU_logo.png){.ltu-logo}](https://scholars.latrobe.edu.au/agovus/about) -->
-
-<span>[![](x_icon.svg){.twitter-icon} @AndyGovus](https://twitter.com/AndyGovus) [![](LTU_logo.png){.ltu-logo} La Trobe University bio](https://scholars.latrobe.edu.au/agovus/about)</span>
+<div class="social-links">
+  [![](x_icon.svg){.twitter-icon} \@AndyGovus](https://twitter.com/AndyGovus)
+  [![](LTU_logo.png){.ltu-logo} La Trobe University bio](https://scholars.latrobe.edu.au/agovus/about)
+</div>
 
 Dr Andrew Govus is a Senior Lecturer in Sport and Exercise Science at La Trobe University, specialising in sports physiology. He has previously worked with the Australian Institute of Sport and Swedish Winter Sport Research Centre to provide sport science support to elite athletes. His research interests include:
 
-1. **Iron deficiency**: Understanding, preventing, and treating exercise-induced iron deficiency.
-
-2.	**The female athlete**: Understanding the influence of the menstrual cycle on female athlete health and performance.
-
-3.	**Athlete phenomics**: Using a combination of metabolomics and epigenetics methods to understand the biochemical pathway altered by exercise training using minimally invasive collection methods (e.g., capillary blood sampling, dried blood spots, urine).
-
-4.	**Wearable technology**: The design, data analysis and implementation factors related to wearable biosensors.
-
-5.	**Environmental physiology**: The body's response to hypoxia and heat exposure.
-
-6.	**Applied statistics**: Enhancing data science skills within the profession of sport and exercise science.
+<ol>
+  <li><strong>Iron deficiency</strong><span> Understanding, preventing, and treating exercise-induced iron deficiency.</span></li>
+  <li><strong>The female athlete</strong><span> Understanding the influence of the menstrual cycle on female athlete health and performance.</span></li>
+  <li><strong>Athlete phenomics</strong><span> Using a combination of metabolomics and epigenetics methods to understand the biochemical pathway altered by exercise training using minimally invasive collection methods (e.g., capillary blood sampling, dried blood spots, urine).</span></li>
+  <li><strong>Wearable technology</strong><span> The design, data analysis and implementation factors related to wearable biosensors.</span></li>
+  <li><strong>Environmental physiology</strong><span> The body's response to hypoxia and heat exposure.</span></li>
+  <li><strong>Applied statistics</strong><span> Enhancing data science skills within the profession of sport and exercise science.</span></li>
+</ol>
 :::
 
 ::: {.grid-item}
-![](sachkou.jpeg){width="170px"}
+![](sachkou.jpg)
 
-**Dr Eugene Sachkou**
+<div class="name-title">**Dr Eugene Sachkou**</div>
 
-<span>[![](x_icon.svg){.twitter-icon} @DrSachkov](https://twitter.com/DrSachkov) [![](LinkedIn_icon.png){.linkedin-logo} Eugene Sachkou](https://www.linkedin.com/in/eugene-sachkou/)</span>
+<div class="social-links">
+  [![](x_icon.svg){.twitter-icon} \@DrSachkov](https://twitter.com/DrSachkov) 
+  [![](LinkedIn_icon.png){.linkedin-logo} Eugene Sachkou](https://www.linkedin.com/in/eugene-sachkou/)
+</div>
 
 Dr Eugene Sachkou is a data professional with a PhD in Physics and expertise in data science techniques, statistical modeling, and machine learning. During his PhD at The University of Queensland, Dr Sachkou made significant contributions to the study of two-dimensional superfluid helium. His work earned him a Springer Thesis Award and an invitation to the prestigious Meeting of Nobel Laureates in Lindau, Germany.
 
-After his PhD, he joined the Superconducting Quantum Devices Laboratory at The University of Queensland, focusing on quantum computing with superconducting qubits. Following this, Dr Sachkou’s interest in data science and a lifelong passion for sports led him to work on the SPEEDS project as a Postdoctoral Researcher in Sports Statistics at La Trobe University. Dr Sachkou has a keen interest in various aspects of data science, machine learning, and artificial intelligence.
+After his PhD, he joined the Superconducting Quantum Devices Laboratory at The University of Queensland, focusing on quantum computing with superconducting qubits. Following this, Dr Sachkou's interest in data science and a lifelong passion for sports led him to work on the SPEEDS project as a Postdoctoral Researcher in Sports Statistics at La Trobe University. Dr Sachkou has a keen interest in various aspects of data science, machine learning, and artificial intelligence.
 :::
 
 ::: {.grid-item}
 ![](carey.jpg)
 
-**Dr David Carey**
+<div class="name-title">**Dr David Carey**</div>
 
-<span>[![](x_icon.svg){.twitter-icon} @david_carey1](https://twitter.com/david_carey1) [![](LTU_logo.png){.ltu-logo} La Trobe University bio](https://scholars.latrobe.edu.au/dcarey)</span>
+<div class="social-links">
+[![](x_icon.svg){.twitter-icon} \@david_carey1](https://twitter.com/david_carey1) [![](LTU_logo.png){.ltu-logo} La Trobe University bio](https://scholars.latrobe.edu.au/dcarey)
+</div>
 
 Dr David Carey is Senior Lecturer in Sport Analytics and Data Science. David has worked with professional Australian Football, soccer, rugby, and the Australian Institute of Sport on problems relating to training, injury, and performance in elite athletes. He has experience applying statistics, data science and machine learning techniques to varied sports problems including dimensionality reduction, video-based player tracking, sports field registration, detection of spatial formations in team sports, estimation of player skill ratings, longitudinal athlete monitoring, and validation of wearable sports technology.
 :::
 
 ::: {.grid-item}
-![](huynh.jpeg)
+![](huynh.jpg)
 
-**Dr Minh Huynh**
+<div class="name-title">**Dr Minh Huynh**</div>
 
+<div class="social-links">
 [![](LTU_logo.png){.ltu-logo} La Trobe University bio](https://scholars.latrobe.edu.au/m2huynh)
+</div>
 
-Dr Minh Huynh is a Lecturer in Sports Analytics, specialising in data science and performance modelling. Minh finished his PhD in 2018 at RMIT University and has over 10 years' experience as a statistician, publishing across various sectors. 
+Dr Minh Huynh is a Lecturer in Sports Analytics, specialising in data science and performance modelling. Minh finished his PhD in 2018 at RMIT University and has over 10 years' experience as a statistician, publishing across various sectors.
 
 Key research areas:
 
-* ESports and performance modelling
+- ESports and performance modelling
 
-* Machine learning
+- Machine learning
 
-* Research design
+- Research design
 
 Dr Huynh works collaboratively with external researchers and Industry partners, to be the recipient of various grants and patents.
 :::
 
 ::: {.grid-item}
-![](suppiah.jpeg)
+![](suppiah.jpg)
 
-**Dr Haresh Suppiah**
+<div class="name-title">**Dr Haresh Suppiah**</div>
 
-<span>[![](x_icon.svg){.twitter-icon} @hareshsuppiah](https://twitter.com/hareshsuppiah) [![](LTU_logo.png){.ltu-logo} La Trobe University bio](https://scholars.latrobe.edu.au/hsuppiah)</span>
+<div class="social-links">
+[![](x_icon.svg){.twitter-icon} \@hareshsuppiah](https://twitter.com/hareshsuppiah) [![](LTU_logo.png){.ltu-logo} La Trobe University bio](https://scholars.latrobe.edu.au/hsuppiah)
+</div>
 
 Dr Haresh Suppiah is a Lecturer in Sport and Exercise Science and Sport Analytics. He was previously a Senior Sport Physiologist and Head of Research and Development at the National Youth Sports Institute (Singapore), where he worked with multiple Olympic sports in preparation for regional and international competitions. His doctoral and current research focuses on the performance impact of sleep in adolescent athletes. His research also extends to other applied sport science areas, the identification and development of youth talent in sport, and strength and conditioning.th external researchers and Industry partners, to be the recipient of various grants and patents.
 :::
 
 ::: {.grid-item}
-![](varley.jpeg)
+![](varley.jpg)
 
-**Dr Matthew Varley**
+<div class="name-title">**Dr Matthew Varley**</div>
 
+<div class="social-links">
 [![](LTU_logo.png){.ltu-logo} La Trobe University bio](https://scholars.latrobe.edu.au/mvarley)
+</div>
 
 Matthew is a senior lecturer in sport science at the La Trobe university Bundoora Campus. He has worked as a sports scientist in both an applied and academic setting. His main research focus is athlete monitoring, sports technology, sport science, data in sport and team sports. He has worked with a range of team sports and believes applied sports research should result in a clear practical application.
 
-Previously Matthew worked as Research Coordinator and Senior Sport Scientist at the Football Performance & Science Department at the Aspire Academy in Qatar. Prior to that he was a lecturer in the College of Sports and Exercise Science at Victoria University in Melbourne, Australia where he taught in the areas of sports and exercise physiology. Matthew completed his undergraduate studies at RMIT and his PhD at Victoria University titled “Acceleration and Fatigue in Soccer”.
+Previously Matthew worked as Research Coordinator and Senior Sport Scientist at the Football Performance & Science Department at the Aspire Academy in Qatar. Prior to that he was a lecturer in the College of Sports and Exercise Science at Victoria University in Melbourne, Australia where he taught in the areas of sports and exercise physiology. Matthew completed his undergraduate studies at RMIT and his PhD at Victoria University titled "Acceleration and Fatigue in Soccer".
 
 Matthew has experience with the Victorian Institute of Sport and has provided sport science advice for several elite sporting clubs and sport technology companies including Football Federation Australia, Football Federation Victoria, Fusion Sports, Melbourne Victory, Melbourne Heart and Perth Glory Football Clubs and Western Bulldogs Football Club.
 :::
-:::
+</div>
