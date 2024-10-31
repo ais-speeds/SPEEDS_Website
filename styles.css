@@ -81,3 +81,107 @@ p {
 
 
 
+
+
+
+/* Center the header specifically on the SPEEDS Team page */
+.speeds-team-page h1 {
+  margin-top: 5px;
+  text-align: center;
+}
+.speeds-team-page h2,
+.speeds-team-page h3,
+.speeds-team-page h4,
+.speeds-team-page h5,
+.speeds-team-page h6 {
+  text-align: center;
+}
+
+/* Set maximum width for the entire page content and center it */
+.speeds-team-page {
+  max-width: 900px; /* Adjust this value as needed */
+  margin: 0 auto; /* Centers the content on the page */
+}
+
+/* Adjust grid layout */
+.speeds-team-page .grid-layout {
+  display: block;
+}
+
+/* Center all content within each grid item */
+.speeds-team-page .grid-item {
+  text-align: center;
+}
+
+/* Justify paragraphs within each grid item */
+.speeds-team-page .grid-item p {
+  max-width: 100%; /* Ensures it spans the full width of .speeds-team-page */
+  text-align: justify;
+  margin: 0 auto;
+}
+
+/* Display social links in a row with spacing */
+.speeds-team-page .grid-item .social-links {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.speeds-team-page .social-links a {
+  margin-right: 10px;
+}
+
+.speeds-team-page .social-links a:last-child {
+  margin-right: 0;
+}
+
+/* Ordered list styling for grid items */
+.speeds-team-page .grid-item ol {
+  list-style-position: inside; /* Places the number inside the list item */
+  padding-left: 25px; /* Adds slight indentation for ordered list */
+  margin-left: 0; /* Removes extra margin */
+  text-align: justify; /* Justifies the text within each list item */
+  max-width: 100%; /* Ensures it spans the full width of .speeds-team-page */
+}
+
+.speeds-team-page .grid-item ol li {
+  text-align: justify; /* Ensures justification for each list item */
+  margin-bottom: 10px; /* Adds space between items */
+}
+
+/* Style bold text and add colon within ordered list items */
+.speeds-team-page .grid-item ol li strong {
+  font-weight: bold;
+  margin-right: 5px; /* Adds a small space between the bold text and the colon */
+}
+
+.speeds-team-page .grid-item ol li strong::after {
+  content: ": ";
+}
+
+/* Inline display for additional text in list items */
+.speeds-team-page .grid-item ol li span {
+  display: inline;
+}
+
+/* Center the name/title under the image */
+.speeds-team-page .grid-item .name-title {
+  text-align: center;
+  margin-top: 10px; /* Adjust as needed for spacing */
+}
+
+/* Adjust vertical spacing between each person's block */
+.speeds-team-page .grid-item {
+  text-align: center;
+  margin-bottom: 50px; /* Adjust the value as needed */
+}
+
+
+
+
+
+
+
+
+
+
